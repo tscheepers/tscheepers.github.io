@@ -1,0 +1,124 @@
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, ul {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #1A1A1A;
+    font-family: Garamand, Times, serif;
+    font-weight: normal;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div.site {
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+header {
+    margin: 0;
+    padding: 4rem 2rem 0 2rem;
+    background-color: white;
+}
+
+section, article {
+    padding: 3rem 2rem 2rem;
+    margin: 0;
+    text-align: justify;
+    hyphens:auto;
+    -webkit-hyphens:auto;
+    -webkit-hyphenate-character:"\2010";
+    -webkit-hyphenate-limit-after:1;
+    -webkit-hyphenate-limit-before:2;
+    -moz-hyphens:auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2.0rem;
+    margin-top: 0;
+    margin-bottom: 0rem;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.2rem;
+}
+
+h1.name {
+    font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: bold;
+}
+
+article h1, article h2, article h3 {
+    text-align: left;
+    font-weight: bold;
+}
+
+p, li {
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+li {
+    
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    color: #1A1A1A;
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-text-decoration-skip: objects;
+}
+
+@media screen and (min-width: 50rem) {
+    div.site {
+        padding-top: calc(50vh - 8rem);
+    }
+
+    header {
+        padding: 4rem 6rem 0 6rem;
+    }
+
+    section {
+        padding: 3rem 6rem 4rem;
+    }
+
+    article {
+        padding: 6rem;
+    }
+
+    h1.name {
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+}
