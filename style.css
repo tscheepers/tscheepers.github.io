@@ -5,13 +5,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, blockquote, ul {
 
 html {
     color: #1A1A1A;
-
     font-family: Garamand, Times, serif;
-
     font-weight: normal;
     font-size: 100%;
-
-
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -19,39 +15,19 @@ html {
 }
 
 div.site {
-    margin: 0 auto;
     border-radius: 4px;
     background: #FFFFFF;
-    box-shadow: 0 0.8rem 2rem #ccc;
-}
-
-div.notification {
-    padding: 1rem;
-    margin: 0 0 3rem 0;
-    position: relative;
-    font-size: 1.25rem;
-    line-height: 1.9rem;
-    text-align: center;
-    overflow: hidden;
-    border-top: 0.1rem  #1A1A1A solid;
-    border-bottom: 0.1rem  #1A1A1A solid;
 }
 
 header {
-
     margin: 0;
     padding: 4rem 2rem 0 2rem;
-
-    text-align: center;
     background-color: white;
-
 }
 
 section, article {
-
     padding: 3rem 2rem 2rem;
     margin: 0;
-
     text-align: justify;
     hyphens:auto;
     -webkit-hyphens:auto;
@@ -62,7 +38,6 @@ section, article {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    /*font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;*/
     font-style: normal;
     font-weight: normal;
 }
@@ -117,25 +92,18 @@ li {
 
 a {
     color: #1A1A1A;
-
     cursor: pointer;
-
     text-decoration: underline;
     -webkit-text-decoration-skip: objects;
 }
 
-
 @media screen and (min-width: 50rem) {
-
-
     div.site {
         max-width: 51rem;
-        margin: 3rem auto 6rem;
     }
 
     header {
         padding: 4rem 6rem 0 6rem;
-        text-align: center;
     }
 
     section {
@@ -147,9 +115,7 @@ a {
     }
 
     h1.name {
-
         font-size: 2.4rem;
         line-height: 4rem;
-
     }
 }
